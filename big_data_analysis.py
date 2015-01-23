@@ -10,6 +10,7 @@ readFile = bigDataFile.read()
 
 lineSplit = readFile.split('\n')
 
+
 for everyLine in lineSplit:
     dividedLine = everyLine.split(',')
 
@@ -36,8 +37,3 @@ for everyLine in lineSplit:
     appendFile.close()
 
     time.sleep(5)
-
-
-
-
-
